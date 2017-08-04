@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 // made some changes
 
-var element = document.getElementById("new");
+//var element = document.getElementById("new");
 element.innerHTML="New Value";
 
 //move the  image
