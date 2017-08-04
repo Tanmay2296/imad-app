@@ -17,7 +17,7 @@ button.onclick = function() {
     var span = document.getElementById("count");
     span.innerHTML = counter.toString();
         }
-    };
+    }
     //request
     request.open("GET","http://tanmayrox1996.imad.hasura-app.io/counter",true);
     request.send(null);
