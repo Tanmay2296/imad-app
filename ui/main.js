@@ -33,7 +33,7 @@ submit.onclick = function() {
         
     };
     //request
-    request.open("GET","http://tanmayrox1996.imad.hasura-app.io/counter",true);
+    request.open("GET","http://tanmayrox1996.imad.hasura-app.io/submit-name?name=" + name,true);
     request.send(null);
     
 };
