@@ -25,6 +25,12 @@ button.onclick = function() {
     request.open("GET","http://tanmayrox1996.imad.hasura-app.io/counter",true);
     request.send(null);
     
-        
-  
+}
+
+var nameInput = document.getElementById("name");
+var name = nameInput.value;
+var Submit = document.getElementById("submit");
+submit.onclick = function() {
+    //make a request to server
+    // display
 }
