@@ -19,7 +19,7 @@ button.onclick = function() {
         }
     };
     //request
-    request.open("GET","http://tanmayrox1996.imad.hasura-app.io/",true);
+    request.open("GET","http://tanmayrox1996.imad.hasura-app.io/counter",true);
     request.send(null);
     
     }    
