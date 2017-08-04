@@ -36,4 +36,3 @@ submit.onclick = function() {
     request.open("GET","http://tanmayrox1996.imad.hasura-app.io/submit-name?name=" + name,true);
     request.send(null);
     
-};
