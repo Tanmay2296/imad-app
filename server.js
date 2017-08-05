@@ -13,6 +13,14 @@ app.get('/article-one', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html')) 
 });
 
+app.get('/article-two', function (req, res) {
+   res.sendFile(path.join(__dirname, 'ui', 'article-two.html')) 
+});
+
+app.get('/article-three', function (req, res) {
+   res.sendFile(path.join(__dirname, 'ui', 'article-three.html')) 
+});
+
 /*var counter = 0;
 app.get('/counter', function (req,res){
 counter = counter + 1;
