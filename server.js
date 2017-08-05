@@ -7,40 +7,44 @@ app.use(morgan('combined'));
 
 
 var articles = {
-    var articleOne: {
+var articleOne: {
      title: 'Article One | Tanmay NT',
      heading: 'Article One',
      date:'Aug 6, 2017',
-     content: `  <p> //using backquote
+     content: `  <p> 
                   This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.
                 </p>
             
-            <p>
-              This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.
-            </p>
-            
-            <p>
-              This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.
-            </p>`
-    
+                    <p>
+                      This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.
+                    </p>
+                    
+                    <p>
+                      This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.
+                    </p>`
+                    
+                    
 },
 
-
 var articleTwo: {title: 'Article Two | Tanmay NT',
- heading: 'Article Two',
- date:'Aug 6, 2017',
- content: `  <p> //using backquote
-              This is some content for article-Two.`
-              
+     heading: 'Article Two',
+     date:'Aug 6, 2017',
+     content: ` 
+                 <p>
+                 This is some content for article-Two.
+                  </p>`
+                  
 },
 
 var articleThree: {title: 'Article Three | Tanmay NT',
- heading: 'Article Three',
- date:'Aug 6, 2017',
- content: `  <p> 
-              This is some content for article-Three.`
-    
-}
+     heading: 'Article Three',
+     date:'Aug 6, 2017',
+     content: ` 
+                <p> 
+                  This is some content for article-Three.
+                 </p>`
+        
+    }
     
 };
 
