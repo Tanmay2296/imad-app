@@ -34,6 +34,7 @@ var articles = {
                   </p>`
                   
 },
+
  'article-three': {
     title: 'Article Three | Tanmay NT',
      heading: 'Article Three',
