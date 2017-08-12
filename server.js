@@ -128,7 +128,8 @@ app.get('/test-db', function (req,res){
 app.get('/articles/:articleName', function (req, res) {
     // article name = article - one
     // articles[articleName] == {} content object for article one
-    pool.query("SELECT * FROM article WHERE title = " + req.params.articleName, function (err, result) {
+    //Select * FROM article where title = article-one
+    pool.query("SELECT * FROM article WHERE title = '" + req.params.articleName + "'" , function (err, result) {
         
          if(err){
           res.status(500).send(err.toString()); 
