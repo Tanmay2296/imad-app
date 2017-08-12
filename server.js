@@ -14,49 +14,6 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articles = {
-    
- 'article-one': {
-     title: 'Article One | Tanmay NT',
-     date:'Aug 6, 2017',
-     content: `  <p> 
-                  This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.
-                </p>
-            
-                    <p>
-                      This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.
-                    </p>
-                    
-                    <p>
-                      This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.This is some content for article-one.
-                    </p>`
-                    
-                    
-},
- 'article-two': {
-     title: 'Article Two | Tanmay NT',
-     heading: 'Article Two',
-     date:'Aug 6, 2017',
-     content: ` 
-                 <p>
-                 This is some content for article-Two.
-                  </p>`
-                  
-},
-
- 'article-three': {
-    title: 'Article Three | Tanmay NT',
-     heading: 'Article Three',
-     date:'Aug 6, 2017',
-     content: ` 
-                <p> 
-                  This is some content for article-Three.
-                 </p>`
-        
-    }
-    
-};
-
 
 function createTemplate (data) {
     
