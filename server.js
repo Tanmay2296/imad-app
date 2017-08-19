@@ -2,7 +2,7 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 var Pool = require('pg').Pool;
-var hashed = require('crypto');
+var crypto = require('crypto');
 
 var config = {
     user:'tanmayrox1996',
