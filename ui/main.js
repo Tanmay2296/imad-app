@@ -14,7 +14,16 @@ submit.onclick = function() {
     request.onreadystatechange = function () {
         if(request.readyState === XMLHttpRequest.DONE) {
         //Take some action
-    if(request.status === 200) {    
+    if(request.status === 200) {
+        console.log('user logged in!');
+        alert('user logged in!');
+    }else if (request.status === 403){
+        console.log('Wrong Input!!');
+        alert('Wrong Input!1');
+    } 
+         else if (request.status === 500) {
+        alert('Something went wrong!');
+    }
   
     //make a request to server
     // display
